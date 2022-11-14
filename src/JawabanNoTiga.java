@@ -37,20 +37,56 @@ public class JawabanNoTiga {
             } else {
                 System.out.println("Plat tersebut termasuk plat GANJIL");
             }
-
-            System.out.println("| Jumlah plat nomor K : " + " | Jumlah plat nomor B : " + " Jumlah plat nomor AB : ");
-            System.out.println("| Jumlah plat nomor AD : "  + " | Jumlah plat nomor T : ");
-            System.out.println("Jumlah plat nomor Genap : ");
-            System.out.println("Jumlah plat nomor Ganjil : ");
         }
     }
 
+    public static String[] Kudus = new String[50];
+    public static String[] Jakarta = new String[50];
+    public static String[] Jogja = new String[50];
+    public static String[] Karawang = new String[50];
+    public static String[] Solo = new String[50];
     public static void jmlPlat(){
-        String[] jmlPlat = new String[]{"Kudus", "Jakarta", "Jogja", "Karawang", "Solo"};
+        int totPlatNomor = 0;
+        int totPlatGenap = 0;
+        int totPlatGanjil = 0;
+
+        int totKudus = 0;
+        for (int i = 0; i < Kudus.length; i++) {
+            if (Kudus[i] != null) {
+                totKudus++;
+            }
+        }
+        int totJakarta = 0;
+        for (int i = 0; i < Jakarta.length; i++) {
+            if (Jakarta[i] != null) {
+                totJakarta++;
+            }
+        }
+        int totJogja = 0;
+        for (int i = 0; i < Jogja.length; i++) {
+            if (Jogja[i] != null) {
+                totJogja++;
+            }
+        }
+        int totKarawang = 0;
+        for (int i = 0; i < Karawang.length; i++) {
+            if (Karawang[i] != null) {
+                totKarawang++;
+            }
+        }
+        int totSolo = 0;
+        for (int i = 0; i < Solo.length; i++) {
+            if (Solo[i] != null) {
+                totSolo++;
+            }
+        }
+        totPlatNomor = totJakarta + totJogja + totKarawang + totKudus + totSolo;
+        System.out.println("Jumlah semua Plat nomor : " + totPlatNomor);
 
     }
 
     public static void main(String[] args) {
         inputPlat();
+        //maaf pak cuman bisa segini, selanjutnya saya akan belajar lebih giat lagi
     }
 }
