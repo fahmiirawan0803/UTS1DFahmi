@@ -85,6 +85,10 @@ public class JawabanNoTiga {
 
     }
 
+    public static void chckIndexPlat(){
+        //
+    }
+
     public static void main(String[] args) {
         inputPlat();
         //maaf pak cuman bisa segini, selanjutnya saya akan belajar lebih giat lagi
