@@ -9,27 +9,27 @@ public class JawabanNoTiga {
         while (true) {
             System.out.println("==================================");
             System.out.println(" ");
-            System.out.println("masukan huruf depan plat nomor (contoh : B-)");
+            System.out.println("Masukan huruf depan plat nomor (contoh : B-)");
             Scanner platNomor = new Scanner(System.in);
             String infoPlat = platNomor.next();
-            System.out.println("masukan angka pada plat nomor");
+            System.out.println("Masukan angka pada plat nomor");
             Scanner angkaPlatNomor = new Scanner(System.in);
             int angkaBelakang = angkaPlatNomor.nextInt();
 
             String sub1 = infoPlat.substring(0, 2);
             System.out.println("Plat nomor " + infoPlat + angkaBelakang);
             if (sub1.contains("K")) {
-                System.out.println("berasal dari Kudus");
+                System.out.println("Berasal dari Kudus");
             } else if (sub1.contains("B-")) {
-                System.out.println("berasal dari Jakarta");
+                System.out.println("Berasal dari Jakarta");
             } else if (sub1.contains("AB")) {
-                System.out.println("berasal dari Jogja");
+                System.out.println("Berasal dari Jogja");
             } else if (sub1.contains("T-")) {
-                System.out.println("berasal dari Karawang");
+                System.out.println("Berasal dari Karawang");
             } else if (sub1.contains("AD")) {
-                System.out.println("berasal dari Solo");
+                System.out.println("Berasal dari Solo");
             } else {
-                System.out.println("masukan plat nomor");
+                System.out.println("Masukan plat nomor");
             }
 
             if (angkaBelakang % 2 == 0) {
