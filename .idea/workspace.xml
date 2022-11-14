@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="710e616a-ca4e-4933-ada4-c98d3c6d9bc8" name="Changes" comment="">
+    <list default="true" id="710e616a-ca4e-4933-ada4-c98d3c6d9bc8" name="Changes" comment="fahmi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JawabanNoTiga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JawabanNoTiga.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UTSMethodNoDua.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UTSMethodNoDua.java" afterDir="false" />
@@ -39,9 +39,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JawabanNoTiga">
     <configuration name="JawabanNoTiga" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JawabanNoTiga" />
+      <module name="UTSJawabanNoTiga" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UTSMethodNoDua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UTSMethodNoDua" />
       <module name="UTSJawabanNoTiga" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -50,6 +57,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.JawabanNoTiga" />
+        <item itemvalue="Application.UTSMethodNoDua" />
       </list>
     </recent_temporary>
   </component>
@@ -62,6 +70,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668421547496</updated>
     </task>
+    <task id="LOCAL-00001" summary="fahmi">
+      <created>1668422445104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668422445104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fahmi" />
+    <option name="LAST_COMMIT_MESSAGE" value="fahmi" />
   </component>
 </project>

@@ -1,12 +1,14 @@
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Arrays;
 import java.util.Formattable;
 import java.util.Scanner;
 
 public class JawabanNoTiga {
     public static void inputPlat() {
-        String[] myArrays = new String[]{"Kudus", "Jakarta", "Jogja", "Karawang", "Solo"};
+
         while (true) {
             System.out.println("==================================");
+            System.out.println(" ");
             System.out.println("masukan huruf depan plat nomor (contoh : B-)");
             Scanner platNomor = new Scanner(System.in);
             String infoPlat = platNomor.next();
@@ -31,10 +33,15 @@ public class JawabanNoTiga {
             }
 
             if (angkaBelakang % 2 == 0) {
-                System.out.println("Plat tersebut termasuk plat genap");
+                System.out.println("Plat tersebut termasuk plat GENAP");
             } else {
-                System.out.println("Plat tersebut termasuk plat ganjil");
+                System.out.println("Plat tersebut termasuk plat GANJIL");
             }
+
+            System.out.println("| Jumlah plat nomor K : " + " | Jumlah plat nomor B : " + " Jumlah plat nomor AB : ");
+            System.out.println("| Jumlah plat nomor AD : "  + " | Jumlah plat nomor T : ");
+            System.out.println("Jumlah plat nomor Genap : ");
+            System.out.println("Jumlah plat nomor Ganjil : ");
         }
     }
 
