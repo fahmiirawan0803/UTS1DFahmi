@@ -4,6 +4,12 @@ import java.util.Formattable;
 import java.util.Scanner;
 
 public class JawabanNoTiga {
+
+    public static String[] Kudus = new String[50];
+    public static String[] Jakarta = new String[50];
+    public static String[] Jogja = new String[50];
+    public static String[] Karawang = new String[50];
+    public static String[] Solo = new String[50];
     public static void inputPlat() {
 
         while (true) {
@@ -40,11 +46,6 @@ public class JawabanNoTiga {
         }
     }
 
-    public static String[] Kudus = new String[50];
-    public static String[] Jakarta = new String[50];
-    public static String[] Jogja = new String[50];
-    public static String[] Karawang = new String[50];
-    public static String[] Solo = new String[50];
     public static void jmlPlat(){
         int totPlatNomor = 0;
         int totPlatGenap = 0;
